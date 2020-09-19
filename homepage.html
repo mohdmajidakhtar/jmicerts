@@ -696,7 +696,13 @@ function upload()
      //console.log("hash ",hash);
      var ret= certabi.methods.getKycId(hash).call().then(function(result) {
      var input = document.getElementById("display");
-     document.getElementById('display').innerHTML = 'This is a valid Certificate belonging to '+result;
+     if(result)
+     {
+        document.getElementById('display').innerHTML = 'This is a valid Certificate belonging to '+result;
+     }else
+     {
+        document.getElementById('display').innerHTML = 'Not a valid Certificate';
+     }
      console.log("Final Result ",result);
  })
 });
