@@ -4,7 +4,7 @@ Added Features:
 
 # Demo Screenshots is here.
 
-<img src="https://github.com/mohdmajidakhtar/jmicerts/blob/master/Screenshot1.png" width="500">
+<img src="https://github.com/mohdmajidakhtar/jmicerts/blob/master/Screenshot1.png" width="700">
 
 # Visit Website here.
 
